@@ -1,0 +1,19 @@
+{
+  "Autopairs": { "branch": "master", "commit": "ae5b41ce880a6d850055e262d6dfebd362bb276e" },
+  "BufferLine": { "branch": "main", "commit": "d24378edc14a675c820a303b4512af3bbc5761e9" },
+  "CoC - code completer": { "branch": "release", "commit": "9332d2ab1154dedc9dbcd3e1c873886abaf061a6" },
+  "Comment": { "branch": "master", "commit": "0236521ea582747b58869cb72f70ccfa967d2e89" },
+  "Dev icons": { "branch": "master", "commit": "cfc8824cc1db316a276b36517f093baccb8e799a" },
+  "Dressing": { "branch": "master", "commit": "ee571505f3566f84fd252e76c4ce6df6eaf2fb94" },
+  "Git": { "branch": "main", "commit": "749267aaa863c30d721c9913699c5d94e0c07dd3" },
+  "Icon picker": { "branch": "master", "commit": "e6dca182518eeb7a51470c13605a5bce08a816e4" },
+  "LuaLine": { "branch": "master", "commit": "45e27ca739c7be6c49e5496d14fcf45a303c3a63" },
+  "Neovim pretty tree": { "branch": "master", "commit": "920868dba13466586897a8f40220eca6b2caac41" },
+  "Rainbow TreeSitter": { "branch": "master", "commit": "b3120cd5ae9ca524af9cb602f41e12e301fa985f" },
+  "Telescope": { "branch": "0.1.x", "commit": "776b509f80dd49d8205b9b0d94485568236d1192" },
+  "TreeSitter": { "branch": "master", "commit": "ed2c6da5a0959d5c0462ef64ac08d3faa4e92861" },
+  "VSCode theme": { "branch": "main", "commit": "11b212096a0b2056fc8acaf31c0d62d656b6fd2d" },
+  "lazy.nvim": { "branch": "main", "commit": "dac844ed617dda4f9ec85eb88e9629ad2add5e05" },
+  "mkdir -p": { "branch": "main", "commit": "c55d1dee4f099528a1853b28bb28caa802eba217" },
+  "plenary.nvim": { "branch": "master", "commit": "0dbe561ae023f02c2fb772b879e905055b939ce3" }
+}
