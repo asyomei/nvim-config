@@ -22,4 +22,8 @@ set whichwrap=b,s,h,l,<,>,[,]
 set mouse=a
 set nocompatible
 set termguicolors
-set updatetime=500
+set updatetime=200
+
+nmap mm <cmd>set relativenumber!<cr>
+
+imap <C-c> <Esc>
