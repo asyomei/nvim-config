@@ -9,10 +9,11 @@ lazy.setup({
   plugin("telescope"),
   plugin("treesitter"),
   plugin("autopairs"),
-  plugin("coc"),
+  plugin("cmp"),
+  plugin("mason"),
+  plugin("typescript-tools"),
   plugin("mkdir"),
   plugin("comment"),
   plugin("git"),
   plugin("icon-picker"),
 })
-
