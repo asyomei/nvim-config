@@ -1,6 +1,5 @@
 return {
   "neovim/nvim-lspconfig",
-  name = "LSP config",
   config = function()
     vim.diagnostic.config({
       virtual_text = false,
@@ -20,5 +19,5 @@ return {
         vim.diagnostic.open_float(nil, { focus = false, scope = "cursor" })
       end,
     })
-  end
+  end,
 }

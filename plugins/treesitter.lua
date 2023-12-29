@@ -2,7 +2,6 @@ local plugin = require("require-plugin")
 
 return {
   "nvim-treesitter/nvim-treesitter",
-  name = "TreeSitter",
   build = ":TSUpdate",
   opts = function()
     local rainbow = require("ts-rainbow")

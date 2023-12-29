@@ -2,7 +2,6 @@ local plugin = require("require-plugin")
 
 return {
   "hrsh7th/nvim-cmp",
-  name = "CMP",
   config = function()
     local cmp = require("cmp")
     local lspkind = require("lspkind")
@@ -47,6 +46,7 @@ return {
       }),
       sources = cmp.config.sources({
         { name = "nvim_lsp" },
+        { name = "path" },
       }, {
         { name = "buffer" },
       }),
@@ -73,8 +73,8 @@ return {
     })
   end,
   dependencies = {
+    plugin("lspconfig"),
     plugin("deps/lspkind"),
-    plugin("deps/lspconfig"),
     plugin("deps/lsp_signature"),
     plugin("deps/cmp-lsp"),
     plugin("deps/cmp-buffer"),

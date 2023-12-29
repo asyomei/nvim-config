@@ -2,7 +2,6 @@ local plugin = require("require-plugin")
 
 return {
   "ziontee113/icon-picker.nvim",
-  name = "Icon picker",
   cmd = {
     "IconPickerNormal",
     "IconPickerYank",
@@ -16,10 +15,7 @@ return {
   opts = {
     disable_legacy_commands = true,
   },
-  config = function(_, opts)
-    local icon_picker = require("icon-picker")
-    icon_picker.setup(opts)
-  end,
+  config = true,
   dependencies = {
     plugin("deps/dressing"),
   },

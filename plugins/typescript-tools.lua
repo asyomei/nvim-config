@@ -11,6 +11,6 @@ return {
   },
   dependencies = {
     plugin("deps/plenary"),
-    plugin("deps/lspconfig"),
+    plugin("lspconfig"),
   },
 }

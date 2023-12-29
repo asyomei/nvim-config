@@ -1,12 +1,11 @@
 return {
   "ray-x/lsp_signature.nvim",
-  name = "Function signature",
   opts = {
+    hint_enable = false,
     handler_opts = {
       border = "none",
     },
+    always_trigger = false,
+    extra_triggers_chars = {"(", ","},
   },
-  config = function(_, opts)
-    require("lsp_signature").setup(opts)
-  end
 }

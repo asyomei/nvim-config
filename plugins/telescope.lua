@@ -2,7 +2,6 @@ local plugin = require("require-plugin")
 
 return {
   "nvim-telescope/telescope.nvim",
-  name = "Telescope",
   branch = "0.1.x",
   cmd = "Telescope",
   keys = {

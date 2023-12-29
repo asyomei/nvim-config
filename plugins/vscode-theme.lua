@@ -1,6 +1,6 @@
 return {
   "mofiqul/vscode.nvim",
-  name = "VSCode theme",
+  lazy = false,
   priority = 1000,
   opts = {
     italic_comments = false,
