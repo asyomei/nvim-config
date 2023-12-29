@@ -1,4 +1,4 @@
 return {
   "hrsh7th/cmp-path",
-  name = "CMP > Path",
+  name = "CMP - Path",
 }
