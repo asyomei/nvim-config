@@ -14,6 +14,7 @@ lazy.setup({
   plugin("lspconfig"),
   plugin("cmp"),
   plugin("typescript-tools"),
+  plugin("formatter"),
   plugin("mkdir"),
   plugin("comment"),
   plugin("git"),

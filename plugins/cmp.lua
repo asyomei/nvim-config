@@ -7,6 +7,11 @@ return {
     local lspkind = require("lspkind")
 
     cmp.setup({
+      snippet = {
+        expand = function(args)
+          require("snippy").expand_snippet(args.body)
+        end,
+      },
       formatting = {
         format = lspkind.cmp_format({
           mode = "symbol",
@@ -46,6 +51,7 @@ return {
       }),
       sources = cmp.config.sources({
         { name = "nvim_lsp" },
+        { name = "snippy" },
         { name = "path" },
       }, {
         { name = "buffer" },
@@ -80,5 +86,6 @@ return {
     plugin("deps/cmp-buffer"),
     plugin("deps/cmp-path"),
     plugin("deps/cmp-cmdline"),
+    plugin("deps/cmp-snippy"),
   },
 }
