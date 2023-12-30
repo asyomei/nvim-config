@@ -19,4 +19,5 @@ lazy.setup({
   plugin("comment"),
   plugin("git"),
   plugin("icon-picker"),
+  plugin("indent-blankline"),
 })
